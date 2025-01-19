@@ -3,7 +3,7 @@ legacy first treron source. (a discord bot for light treron.)\
 i'm publishing the source because i got fired from light treron, and it'll probably never be reused again.\
 this code wasn't intended to be readable by everyone.\
 this source is especially made for light treron, so don't forget to change the `guildId` and so on.\
-this bot requires Second Treron (another discord bot for light treron), so this means it won't work unless second treron became open source or remove codes related to second treron.\
+this bot requires Second Treron (another discord bot for light treron), so this means it won't work unless second treron became open source or remove codes related to second treron from this source.\
 \
 **SINCE LIGHT TRERON IS NO LONGER USING THIS, I AM NOT RESPONSIBLE FOR ANY PROBLEMS MAY ARISE.**\
 *Use this at your own risk.*
