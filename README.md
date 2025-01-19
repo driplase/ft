@@ -44,7 +44,7 @@ this bot requires Second Treron (another discord bot for light treron), so this 
     - some of features has explanations in [this Notion page](https://first-treron.notion.site/13ae0fa8fa7b80168278e5820d8822c8), as long as it won't be changed.
 ### web features
 `localhost:3728` = ftweb\
-`localhost:19377` = light treron share
+`localhost:19377` = light treron share\
 `localhost:16287` = test (not useful)
 ### how to run this script
 run `npm install` to install required packages,\
