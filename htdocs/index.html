@@ -1,0 +1,117 @@
+<html prefix="og: https://ogp.me/ns#">
+    <head>
+        <title>First Treron's heart (not real)</title>
+        <meta property="og:title" content="First Treron's heart">
+        <meta property="og:url" content="https://ft.j0.si">
+        <meta name="og:description" content="if heart won't show, that means i'm dead">
+        <style>
+            body {
+                overflow: hidden;
+            }
+
+            .heart {
+                transform-origin: center;
+                transition: 1s cubic-bezier(0.34, 1.56, 0.64, 1);
+                transform: scale(1);
+                filter: blur(0px)
+            }
+
+            @keyframes beat {
+                0% {
+                    transform: scale(1);
+                    filter: blur(0px)
+                }
+                16% {
+                    transform: scale(1.25);
+                    filter: blur(2.5px);
+                }
+                100% {
+                    transform: scale(1);
+                    filter: blur(0px)
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="heart" style="height:100%;align-items:center;justify-content: center;text-align:center;display:flex;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+                <path d="M63.5 27.9091C61.5192 27.9091 51.6154 20.0001 37.75 20C24.4641 19.9999 12 31.8637 12 45.7045C12 59.5454 23.8846 91.1818 63.5 107C103.115 91.1818 115 59.5454 115 45.7045C115 31.8637 103.115 20 89.25 20C75.3846 20 65.4808 27.9091 63.5 27.9091Z" fill="#F91880"/>
+                <g filter="url(#filter0_f_1_2)">
+                <path d="M63.5 27.9091C61.5192 27.9091 51.6154 20.0001 37.75 20C24.4641 19.9999 12 31.8637 12 45.7045C12 59.5454 23.8846 91.1818 63.5 107C103.115 91.1818 115 59.5454 115 45.7045C115 31.8637 103.115 20.0001 89.25 20.0001C75.3846 20.0001 65.4808 27.9091 63.5 27.9091Z" fill="#F91880"/>
+                </g>
+                <defs>
+                <filter id="filter0_f_1_2" x="7" y="15" width="113" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_1_2"/>
+                </filter>
+                </defs>
+            </svg>
+        </div>
+        <h1 style="transform:translateY(-42vh);text-align:center;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128" fill="none" style="transform: translateY(20%)">
+            <path d="M63.5 27.9091C61.5192 27.9091 51.6154 20.0001 37.75 20C24.4641 19.9999 12 31.8637 12 45.7045C12 59.5454 23.8846 91.1818 63.5 107C103.115 91.1818 115 59.5454 115 45.7045C115 31.8637 103.115 20 89.25 20C75.3846 20 65.4808 27.9091 63.5 27.9091Z" fill="#F91880"/>
+            <g filter="url(#filter0_f_1_2)">
+            <path d="M63.5 27.9091C61.5192 27.9091 51.6154 20.0001 37.75 20C24.4641 19.9999 12 31.8637 12 45.7045C12 59.5454 23.8846 91.1818 63.5 107C103.115 91.1818 115 59.5454 115 45.7045C115 31.8637 103.115 20.0001 89.25 20.0001C75.3846 20.0001 65.4808 27.9091 63.5 27.9091Z" fill="#F91880"/>
+            </g>
+            <defs>
+            <filter id="filter0_f_1_2" x="7" y="15" width="113" height="97" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_1_2"/>
+            </filter>
+            </defs>
+        </svg> <span id="i" style="font-family: Consolas, monospace;">120</span></h1>
+        <script>
+            let a, k = 0;
+            const b = document.getElementsByClassName('heart')[0];
+
+            function c() {
+                b.style.transition = "0.16s cubic-bezier(0.34, 1.56, 0.64, 1)";
+                b.style.filter = "blur(2.5px)";
+                b.style.transform = "scale(1.25)";
+                const d = setInterval(() => {
+                    b.style.transition = "0.84s cubic-bezier(0.34, 1.56, 0.64, 1)";
+                    b.style.filter = "blur(0px)";
+                    b.style.transform = "scale(1)";
+                    k++;
+                    clearInterval(d);
+                }, 160)
+                e();
+            }
+
+            function e() {
+                a = Math.random() * 700 + 300;
+                const f = setInterval(() => {
+                    c();
+                    clearInterval(f)
+                }, a)
+            }
+
+            function g() {
+                b.style.transition = "0.16s cubic-bezier(0.34, 1.56, 0.64, 1)";
+                b.style.filter = "blur(2.5px)";
+                b.style.transform = "scale(1.25)";
+                const d = setInterval(() => {
+                    b.style.transition = "0.84s cubic-bezier(0.34, 1.56, 0.64, 1)";
+                    b.style.filter = "blur(0px)";
+                    b.style.transform = "scale(1)";
+                    k++;
+                    clearInterval(d);
+                }, 160)
+            }
+
+            const h = new Date().getTime(), i = document.getElementById('i');
+            let j = 0, m = 120;
+            function l() {
+                j = (new Date().getTime() - h ) / 1e3;
+                m += (k / j * 60 - m) / 8;
+                i.textContent = Math.round(m);
+            }
+
+            setInterval(l)
+
+            g();
+            e();
+        </script>
+    </body>
+</html>

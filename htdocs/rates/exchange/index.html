@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check Exchange Rates / First Treron</title>
+        <style>
+            body {
+                text-align: center;
+                background-color: #061736;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <noscript>Enable Javascript to check the exchange rates...</noscript>
+        <h4>50 CTX (coins to XP):</h4>
+        <h1 id="ctx"></h1>
+        <h4>1,000 XTC (XP to coins):</h4>
+        <h1 id="xtc"></h1>
+        <script>
+            const ctx = document.getElementById("ctx"), xtc = document.getElementById("xtc");
+            let n = parseFloat(100)
+            let r = n;
+
+            async function fetchData() {
+                const response = await fetch(`${location.origin}/rate/rate.json`, { signal: AbortSignal.timeout(500) });
+                const rs = await response.text();
+                const data = await Math.round(JSON.parse(rs)["100"] * 10000) / 10000;
+                r = data;
+            }
+
+            setInterval(fetchData, 500);
+            setInterval(() => {
+                n += (r - n) / 64
+                let i = Math.round(n * 10000) / 10000;
+                ctx.textContent = (50 * (i / 5)).toFixed(3), xtc.textContent = (1000 / (i / 5)).toFixed(5)
+            })
+        </script>
+    </body>
+</html>

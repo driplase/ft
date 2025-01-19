@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Light Treron Share</title>
+    </head>
+    <body>
+        LTShare is coming...
+        <script>
+            const q=location.pathname+location.hash,u=new URL(location.href);/^\/([0-9a-z_.]{2,}|[^\/]+(%23|#)\d{4})\/\d+\/?$/i.test(q)?(u.hash="",u.pathname=q.replace(/#/g,'%23'),location.replace(u.href)):null
+        </script>
+    </body>
+</html>

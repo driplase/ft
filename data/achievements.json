@@ -1,0 +1,277 @@
+{
+    "beginning": {
+        "icon": "🔰",
+        "rank": "common",
+        "coin": 0
+    },
+    "1post": {
+        "icon": "🗨️",
+        "rank": "common",
+        "coin": 50
+    },
+    "1like": {
+        "icon": "<:like:1274996409048764490>",
+        "rank": "common",
+        "coin": 30
+    },
+    "1repost": {
+        "icon": "<:repost:1274321686338076775>",
+        "rank": "common",
+        "coin": 20
+    },
+    "1bm": {
+        "icon": "<:bookmark:1274996408012767341>",
+        "rank": "common",
+        "coin": 30
+    },
+    "1liked": {
+        "icon": "❤️",
+        "rank": "common",
+        "coin": 50
+    },
+    "1reposted": {
+        "icon": "🔂",
+        "rank": "common",
+        "coin": 50
+    },
+    "trend": {
+        "icon": "📈",
+        "rank": "common",
+        "coin": 160
+    },
+    "ltsl": {
+        "icon": "<:ltsl_achievement:1278201595015987220>",
+        "rank": "common",
+        "coin": 0
+    },
+    "cgacha": {
+        "icon": "🎰",
+        "rank": "common",
+        "coin": 20
+    },
+    "coinsend": {
+        "icon": "🪙",
+        "rank": "common",
+        "coin": 30
+    },
+    "work": {
+        "icon": "⛏️",
+        "rank": "common",
+        "coin": 1
+    },
+    "ltsy": {
+        "icon": "<:boost:1283015042836463627>",
+        "rank": "uncommon",
+        "coin": 8000
+    },
+    "nocturnal": {
+        "icon": "🌃",
+        "rank": "uncommon",
+        "coin": 16
+    },
+    "nocontenttrend": {
+        "icon": "😶",
+        "rank": "uncommon",
+        "coin": 240
+    },
+    "500coinsend": {
+        "icon": "🤑",
+        "rank": "uncommon",
+        "coin": 240
+    },
+    "5kcoinsend": {
+        "icon": "💰",
+        "rank": "uncommon",
+        "coin": 2000
+    },
+    "10kcoin": {
+        "icon": "👛",
+        "rank": "uncommon",
+        "coin": 80
+    },
+    "allsend": {
+        "icon": "💸",
+        "rank": "uncommon",
+        "coin": 6400
+    },
+    "100post": {
+        "icon": "🗯️",
+        "rank": "uncommon",
+        "coin": 90
+    },
+    "500post": {
+        "icon": "<:post:1283777605736206386>",
+        "rank": "uncommon",
+        "coin": 180
+    },
+    "1kpost": {
+        "icon": "🗣️",
+        "rank": "uncommon",
+        "coin": 900
+    },
+    "10space": {
+        "icon": "🎙️",
+        "rank": "uncommon",
+        "coin": 720
+    },
+    "100like": {
+        "icon": "<:like2:1275033463514464298>",
+        "rank": "uncommon",
+        "coin": 810
+    },
+    "10kcoinsend": {
+        "icon": "<:coin:1284070241005080606>",
+        "rank": "expert",
+        "coin": 6000
+    },
+    "rcr": {
+        "icon": "✨",
+        "rank": "expert",
+        "coin": 827
+    },
+    "100bmd": {
+        "icon": "📚",
+        "rank": "expert",
+        "coin": 160
+    },
+    "scr": {
+        "icon": "🪄",
+        "rank": "legendary",
+        "coin": 5700
+    },
+    "unsightreadable": {
+        "icon": "✖️",
+        "rank": "legendary",
+        "coin": 320
+    },
+    "rainbow": {
+        "icon": "🏳️‍🌈",
+        "rank": "legendary",
+        "coin": 320
+    },
+    "0l5r": {   
+        "icon": "<:remsg:1283019667534909481>",
+        "rank": "epic",
+        "coin": 700
+    },
+    "cgacha3same": {        
+        "icon": "‼️",
+        "rank": "epic",
+        "coin": 3200
+    },
+    "cgacha5same": {
+        "icon": "⁉️",
+        "rank": "godlike",
+        "coin": 12000
+    },
+    "0l16r": {
+        "icon": "💯",
+        "rank": "godlike",
+        "coin": 5000
+    },
+    "nyan8r": {
+        "icon": "🐈",
+        "rank": "godlike",
+        "coin": 2222
+    },
+    "1c12l": {
+        "icon": "1️⃣",
+        "rank": "godlike",
+        "coin": 11111
+    },
+    "jasp": {
+        "icon": "<:jasp:1275651728074739762>",
+        "rank": "hidden",
+        "coin": 0
+    },
+    "sendaspoucoin": {
+        "icon": "💜   ",
+        "rank": "hidden",
+        "coin": 2413
+    },
+    "3d6": {
+        "icon": "🎲",
+        "rank": "hidden",
+        "coin": -1
+    },
+    "1d100": {
+        "icon": "🔢",
+        "rank": "hidden",
+        "coin": -1
+    },
+    "sendnicewithfee": {
+        "icon": "👍",
+        "rank": "hidden",
+        "coin": 420
+    },
+    "test": {
+        "icon": "⛔",
+        "rank": "unavailable",
+        "coin": 0
+    },
+    "j0si": {
+        "icon": "🔗",
+        "rank": "hidden",
+        "coin": -1
+    },
+    "100liked": {
+        "icon": "💗",
+        "rank": "uncommon",
+        "coin": 810
+    },
+    "100reposted": {
+        "icon": "🗂️",
+        "rank": "uncommon",
+        "coin": 640
+    },
+    "100repost": {
+        "icon": "🔃",
+        "rank": "uncommon",
+        "coin": 240
+    },
+    "selflike": {
+        "icon": "🥴",
+        "rank": "uncommon",
+        "coin": 16
+    },
+    "7day": {
+        "icon": "🔥",
+        "rank": "uncommon",
+        "coin": 420
+    },
+    "1space": {
+        "icon": "⬜",
+        "rank": "common",
+        "coin": 72
+    },
+    "1klike": {
+        "icon": "🥰",
+        "rank": "uncommon",
+        "coin": 640
+    },
+    "1kliked": {
+        "icon": "😍",
+        "rank": "uncommon",
+        "coin": 1260
+    },
+    "1bmd": {
+        "icon": "📘",
+        "rank": "common",
+        "coin": 60
+    },
+    "14day": {
+        "icon": "❤️‍🔥",
+        "rank": "expert",
+        "coin": 3360
+    },
+    "30day": {
+        "icon": "🌋",
+        "rank": "legendary",
+        "coin": 8390
+    },
+    "1up": {
+        "icon": "",
+        "rank": "uncommon",
+        "coin": 3
+    }
+}

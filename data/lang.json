@@ -1,0 +1,22 @@
+[
+    {
+        "lang": "ja_jp.yaml",
+        "name": "日本語",
+        "role": "1275043743149326428"
+    },
+    {
+        "lang": "catlang.yaml",
+        "name": "catlang",
+        "role": null
+    },
+    {
+        "lang": "ja_as.yaml",
+        "name": "日本語",
+        "role": "1275649994384343153"
+    },
+    {
+        "lang": "en_us.yaml",
+        "name": "English",
+        "role": "1274696519538180096"
+    }
+]

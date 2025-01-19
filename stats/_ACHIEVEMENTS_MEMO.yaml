@@ -1,0 +1,70 @@
+# あくまでこれは案です、必ず実装するとは限りません
+# コイン使ってなければ上限5000c
+Common:
+    beginning: Userロール、このサーバーの始まり。 100c(2nd処理)
+    1post: はじめてのポスト 50c
+    1like: はじめていいねする 30c
+    1repost: はじめてリポストする 20c
+    1bm: はじめてブックマークする 30c
+    1bmd: はじめてブックマークされる 60c
+    1liked: はじめて誰かにいいねされる 50c
+    1reposted: はじめて誰かにリポストされる 50c
+    trend: トレンドにのる 160c
+    ltsl: Light Treron Sugoi Lightに加入する 0c ざんねん
+    cgacha: ガチャをまわす 20c
+    coinsend: こいんあげる 30c
+    work: 労働する 1c
+    fxbuy:
+    fxsell:
+    1space: 1回スペース 72c
+
+Uncommon:
+    ltsy: Light Treron Suge Yabeに加入する (ブーストする) 800c
+    nocturnal: 22:00 ~ 3:00にメッセージを送る 16c
+    nocontenttrend: テキストなし(画像のみなど)でトレンド入りする 240c
+    500coinsend: 500コイン以上あげる 240c
+    5kcoinsend: 5000コイン以上だれかにあげる 2000c
+    10kcoin: 10,000コイン以上を持つ 80c
+    allsend: 全財産をだれかにあげる 6400c
+    100post: 100ポストする 90c
+    500post: 500ポストする 180c
+    1kpost: 1000ポストする 900c
+    10space: 10回以上スペースをつくる 720c
+    100liked: 100回以上いいねされる 810c
+    100repost: 100回リポストする 240c
+    100reposted: 100回以上リポストされる 640c
+    100like: 100回以上いいねする 320c
+    selflike: 自分で自分のポストをいいねする 16c
+    7day: 7日連続でポストする 420c
+    1klike: 1000いいね 640c
+    1kliked: 1000いいねされる 1260c
+
+Expert:
+    10kcoinsend: 10,000コイン以上だれかにあげる 6000c
+    rcr: レアなカラーロールを手に入れる 827c
+    100bmd: 100回以上ブックマークされる 160c
+    14day: 14日連続 3360c
+
+Legendary:
+    scr: スーパーレアなカラーロールを手に入れる 5700c
+    unsightreadable: みえにくすぎグレーロールを手に入れる 320c
+    rainbow: レインボーロールを手に入れる 320c
+    30day: 30日連続 8390c
+
+Epic:
+    0l5r: いいねされずに5リポストされる 700c
+    cgacha3same: 3回連続で同じ色をひく 3200c
+
+GODLIKE: 
+    cgacha5same: 5回連続で同じ色をひく 12000c
+    0l16r: いいねされずに16リポストされる 5000c
+    nyan8r: 「にゃーん」だけで8リポストされる 2222c
+    1c12l: 1文字だけで12いいねされる 1111c
+
+Hidden:
+    jasp: https://discord.com/channels/1227213276576874558/1227216489199960157/1276493480423718922 0c ざんねん
+    sendaspoucoin: あすぽうに2413コイン以上あげる 2413c
+    3d6: 3d6 ${3d6()}! ${3d6()}c
+    1d100: 1d100 ${d100()}! ${d100()}c
+    sendnicewithfee: 手数料を含めて69コインちょうど使ってだれかにコインをあげる 420c
+    j0si: 「j0.si」を含めたメッセージを送信 [解除時の15.89 USD→JPYレート]c

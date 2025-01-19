@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+    <head>
+        <title>Trending posts</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dhljt.css">
+        <style>
+            body {
+                background-color: #2e3035;
+                color: white;
+                font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+                margin: 0;
+                overflow-x: hidden;
+            }
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+            ::-webkit-scrollbar-track {
+                background: #373a3f;
+            }
+            ::-webkit-scrollbar-thumb {
+                border-radius: 20px;
+                background: #1a1b1e;
+            }
+            main {
+                margin: 8;
+            }
+            .post {
+                display: flex;
+                position: relative;
+                margin-top: 16px;
+                margin-left: 16px;
+            }
+            .avatar {
+                border-radius: 32px;
+                margin: 8px;
+                box-shadow: 0 0 10px #7d7d7d;
+                user-select: none;
+            }
+            .u {
+                position: absolute;
+                top: 5px;
+                left: 75px;
+                font-size: 17px;
+                text-shadow: 0 0 5px white;
+                z-index: 3;
+                white-space: nowrap;
+            }
+            .u:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            .usn {
+                font-style: italic;
+                color: #a0a0a0;
+                font-family: 'Consolas', 'Ubuntu Mono', monospace;
+                text-shadow: 0 0 3.2px #a0a0a0;
+            }
+            .content {
+                position: relative;
+                top: 18px;
+                left: 10px;
+                font-size: 15px;
+                line-height: 21px;
+                margin-bottom: 32px;
+                margin-top: 15px;
+                overflow-wrap: break-word;
+                width: 90%;
+            }
+            .mention {
+                background-color: #3c4270;
+                color: #c9cdfb;
+                padding: 0 3px;
+                border-radius: 5px;
+                transition: .15s ease-out;
+                z-index: 2;
+            }
+            .mention:hover {
+                background-color: #5865f2;
+                color: #fff;
+            }
+            .image {
+                max-width: 60vw;
+                max-height: 60vh;
+                border-radius: 8px;
+                margin-top: -8px;
+            }
+            .top {
+                transition: .25s cubic-bezier(0.25, 1, 0.5, 1);
+                margin: 0;
+                position: fixed;
+                top: 0;
+                width: 100vw;
+                height: 100vh;
+                background-color: #0000007d;
+                z-index: 1000;
+                user-select: none;
+                justify-content: center;
+                align-items: center;
+                display: none;
+                opacity: 0;
+            }
+            .center {
+                white-space: nowrap;
+            }
+            .bigimg {
+                max-width: 87vw;
+                max-height: 81vh;
+                border-radius: 0;
+            }
+            .oib {
+                font-size: 14px;
+                color: #fff;
+                opacity: 0.8;
+                margin-top: 3px;
+                text-decoration: none;
+            }
+            .topi {
+                transition: .25s cubic-bezier(0.5, 0, 0.75, 0);
+                transform: scale(0);
+            }
+            .igrid {
+                display: grid;
+                flex-direction: row;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                grid-gap: 4px;
+            }
+            small {
+                font-size: 12px;
+                color: gray;
+            }
+            h1, h2, h3 {
+                line-height: 36px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+            }
+            li {
+                position: relative;
+            }
+            code {
+                padding: 0 .2em;
+                background-color: #2b2d30;
+                border: solid #1e1f22 1px;
+                border-radius: 4px;
+                font-family: 'Consolas', 'Ubuntu Mono', monospace;
+            }
+            .attachment {
+                cursor: pointer;
+            }
+            code.cb {
+                padding: 5px;
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+                margin-bottom: 3px;
+            }
+            pre {
+                background-color: #2b2d30;
+                width: 100%;
+                margin: 0;
+            }
+            img.emoji {
+                height: 1em;
+                width: 1em;
+                margin: 0 .05em 0 .1em;
+                vertical-align: -0.1em;
+            }
+            .spoiler {
+                background-color: #1e1f22;
+                border-radius: 5px;
+                box-shadow: 0 0 1px;
+                color: transparent;
+                transition: .15s ease-out;
+                user-select: none;
+            }
+            .spoiler:hover {
+                background-color: #222326;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous" async></script>
+    </head>
+    <body>
+        <main id="main"></main>
+        <div class="top" id="top">
+            <div class="center topi" id="topi">
+                <img class="image bigimg" id="topImg" src="">
+                <p class="oib"><a class="oib" href="" target="_blank" id="tl">Open in browser</a></p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" async></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js" async></script>
+        <script>
+            const t = document.getElementById('top');
+            const m = document.getElementById('topi');
+            const I = document.getElementById('topImg');
+            const l = document.getElementById('tl');
+            const M = document.getElementById('main');
+            let j, u;
+
+            function htmlspecialchars(str){
+                return (str + '').replace(/&/g,'&amp;')
+                    .replace(/"/g,'&quot;')
+                    .replace(/'/g,'&#x27;')
+                    .replace(/</g,'&lt;')
+                    .replace(/>/g,'&gt;');
+                    // .replace(/`/g,'&#x60;')
+            }
+
+            function markdown(str) {
+                return str.replace(/^(?!\\)-# .+/gm, r => { return `<small>${r.slice(3, r.length)}</small>`; })
+                    .replace(/^(?!\\)### .+/gm, r => { return `<h3>${r.slice(4, r.length)}</h3>`; })
+                    .replace(/^(?!\\)## .+/gm, r => { return `<h2>${r.slice(3, r.length)}</h2>`; })
+                    .replace(/^(?!\\)# .+/gm, r => { return `<h1>${r.slice(2, r.length)}</h1>`; })
+                    .replace(/^\s*(?!\\)- .+/gm, r => { const lp = Math.floor((r.match(/^\s*-/)[0].length - 1) / 2); let c; if (lp > 0) { c = "list-style-type: circle;"; }; return `<li style="left: ${lp * 24}px;${c}">${r.replace((/^\s*- /), '')}</li>` })
+                    .replace(/^\s*(?!\\)\* .+/gm, r => { return `<li style="left: ${Math.floor((r.match(/^\s*\*/)[0].length - 1) / 2) * 24}px;">${r.replace((/^\s*\* /), '')}</li>` })
+                    .replace(/((?!\\)\*){2}[^\*]+\1{2}/g, r => { return `<strong>${r.slice(2, r.length - 2)}</strong>`; })
+                    .replace(/((?!\\)\*)[^\*]+\1/g, r => { return `<i>${r.slice(1, r.length - 1)}</i>`; })
+                    .replace(/((?!\\)_){2}[^_]+\1{2}/g, r => { return `<u>${r.slice(2, r.length - 2)}</u>`; })
+                    .replace(/((?!\\)_)[^_]+\1/g, r => { return `<i>${r.slice(1, r.length - 1)}</i>`; })
+                    .replace(/((?!\\)~){2}[^~]+\1{2}/g, r => { return `<del>${r.slice(2, r.length - 2)}</del>`; })
+                    .replace(/((?!\\)`){3}(?:[^`]|`(?!``))*\1{3}/g, r => {
+                            const wl = r.replace(/`/g, '');
+                            if (wl.split('\n').length < 2) {
+                                return `<code class="cb">${wl}</code>`;
+                            } else {
+                                if (wl.split('\n')[0] === "") {
+                                    return `<code class="cb">${wl}</code>`;
+                                } else {
+                                    console.log(wl.replace(/^.+\n/, ''))
+                                    return `<pre><code class="language-${wl.split('\n')[0]} theme-dark cb">${wl.replace(/^.+\n/, '')}</code></pre>`;
+                                }
+                            }
+                        })
+                    .replace(/((?!\\)`){1,2}[^`]+\1{1,2}/g, r => { return `<code>${r.replace(/`/g, '')}</code>`; })
+                    .replace(/\n|\r/g, '<br>')
+                    .replace(/(<\/h[1-3]>|<\/li>)<br>/g, r => { return r.slice(0, 5); })
+                    .replace(/\|\|[^\|]+\|\|/g, r => { return `<span class="spoiler">${r.slice(2, r.length - 2)}</span>` })
+                    .replace(/https?:\/\/[\w.?=&#%~\/-]+/g, r => { return `<a href="${r}" target="_blank">${r}</a>` })
+                    .replace(/\\\W/g, r => r[1])
+            }
+
+            function customEmoji(str) {
+                return str.replace(/&lt;a?:\S+:\d+&gt;/g, a => {
+                    return `<img src="https://cdn.discordapp.com/emojis/${a.match(/\d+/)[0]}" class="emoji">`;
+                })
+            }
+            
+            function mention(str) {
+                return userMention(str)
+            }
+
+            function userMention(str) {
+                return str.replace(/&lt;@!?\d+&gt;/g, r => {
+                    let m = u.find(d => d.id === r.replace('!', '').match(/\d+/)[0]).name;
+                    if (m === undefined) {
+                        m = r;
+                    }
+                    return `<span class="mention">@${m}</span>`;
+                })
+            }
+
+            async function sf() {
+                const response = await fetch(`${location.origin}/trend/post.json`, { signal: AbortSignal.timeout(1000), method: "GET", mode: "no-cors" });
+                const rs = await response.text();
+                j = JSON.parse(rs);
+                const responze = await fetch(`${location.origin}/trend/user.json`, { signal: AbortSignal.timeout(1000), method: "GET", mode: "no-cors" });
+                const zs = await responze.text();
+                u = JSON.parse(zs);
+
+                const b = j.length;
+
+                for (let k = 0; k < b; k++) {
+                    const y = document.createElement('div');
+                    M.appendChild(y)
+                    let a = "";
+                    if (j[k].attachment) {
+                        a = `<p style="height: 0;"></p><img class="attachment image" onclick="img('${j[k].attachment}')" src="${j[k].attachment}">`
+                    }
+                    const U = u.find(e => e.id === j[k].user);
+                    y.innerHTML = `<div class="post"><div class="postUser"><img class="avatar" src="${U.avatar}" width="48" height="48"><span class="u"><span class="showname">${U.name}</span>&nbsp; <span class="usn">@${U.username}</span></span></div><div class="content">${mention(customEmoji(markdown(htmlspecialchars(j[k].content))))}${a}</div></div>`
+                    twemoji.parse(y);
+                }
+                hljs.highlightAll();
+            }
+            sf()
+
+            function img(url) {
+                t.style.display = "flex";
+                I.src = url;
+                l.href = url;
+                const i = setInterval(() => {
+                    t.style.transition = ".15s cubic-bezier(0.5, 0, 0.75, 0)"
+                    m.style.transition = ".25s cubic-bezier(0.25, 1, 0.5, 1)";
+                    t.style.opacity = 1;
+                    m.style.transform = "scale(1)";
+                    clearInterval(i)
+                }, 1)
+            }
+
+            t.addEventListener('click', (e) => {
+                if (e.target === t || e.target === document.getElementById('tl')) {
+                    m.style.transition = ".15s cubic-bezier(0.5, 0, 0.75, 0)";
+                    t.style.transition = ".25s cubic-bezier(0.25, 1, 0.5, 1)";
+                    t.style.opacity = 0;
+                    m.style.transform = "scale(0)";
+                    const i = setInterval(() => {
+                        t.style.display = "none";
+                        clearInterval(i)
+                    }, 250)
+                }
+            })
+
+            window.onload = () => {
+                const i = setInterval(() => {
+                    window.scrollTo(0, document.body.scrollHeight)
+                    document.querySelectorAll('.spoiler').forEach(e => {
+                        e.addEventListener('click', () => {
+                            e.style.backgroundColor = "#46484c",
+                            e.style.color = "white",
+                            e.style.userSelect = "auto";
+                        })
+                    })
+                    clearInterval(i);
+                }, 256)
+            };
+        </script>
+    </body>
+</html>

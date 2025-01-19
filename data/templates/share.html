@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+    <head>
+        <title>
+            %displayNameTitle% on Light Treron: "%contentTitle%" / Light Treron
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://first.treron.jp/trend/dhljt.css">
+        <style>
+            @keyframes r {
+                from {
+                    opacity: 0;
+                    transform: translateY(12px);
+                    filter: blur(3px);
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+                overflow-x: hidden;
+            }
+
+            div.post {
+                margin: 16px;
+                overflow-wrap: break-word;
+                animation: r .8s cubic-bezier(0.25, 1, 0.5, 1);
+                display: flex;
+                width: 80%;
+                flex-direction: column;
+                justify-content: center;
+                background-color: #313338;
+                color: white;
+                box-shadow: 0 0 8px #494b52;
+                padding: 20px;
+                border-radius: 16px;
+            }
+
+            div.postUser {
+                display: flex;
+            }
+
+            img.avatar {
+                border-radius: 32px;
+                margin: 8px;
+                box-shadow: 0 0 10px #7d7d7d;
+            }
+
+            span.names {
+                position: relative;
+                font-size: 17px;
+                top: 6.5px;
+                left: 1.6px;
+                overflow-wrap: unset;
+            }
+
+            span.username {
+                font-style: italic;
+                color: #a0a0a0;
+                font-family: 'Ubuntu Mono', 'Consolas', monospace;
+                text-shadow: 0 0 3.2px #a0a0a0;
+            }
+
+            div.content {
+                position: relative;
+                text-align: left;
+                top: -3px;
+                padding: 8px;
+                clear: right;
+            }
+
+            img.emoji {
+                height: 1em;
+                width: 1em;
+                margin: 0 .05em 0 .1em;
+                vertical-align: -0.1em;
+            }
+
+            .mention {
+                background-color: #3c4270;
+                color: #c9cdfb;
+                padding: 0 3px;
+                border-radius: 5px;
+                transition: .15s ease-out;
+                z-index: 2;
+            }
+            
+            .mention:hover {
+                background-color: #5865f2;
+                color: #fff;
+            }
+
+            small {
+                font-size: 12px;
+                color: gray;
+            }
+
+            h1, h2, h3 {
+                line-height: 36px;
+                margin-top: 0px;
+                margin-bottom: 8px;
+            }
+
+            li {
+                position: relative;
+            }
+
+            code {
+                padding: 0 .2em;
+                background-color: #2b2d30;
+                border: solid #1e1f22 1px;
+                border-radius: 4px;
+                font-family: 'Consolas', 'Ubuntu Mono', monospace;
+            }
+
+            code.cb {
+                padding: 5px;
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+                margin-bottom: 3px;
+            }
+
+            pre {
+                background-color: #2b2d30;
+                width: 100%;
+                margin: 0;
+            }
+
+            .spoiler {
+                background-color: #1e1f22;
+                border-radius: 5px;
+                box-shadow: 0 0 1px;
+                color: transparent;
+                transition: .15s ease-out;
+                user-select: none;
+            }
+
+            .spoiler:hover {
+                background-color: #222326;
+            }
+
+            div.brand {
+                float: right;
+                margin: 5px;
+                display: flex;
+            }
+
+            img.logo {
+                border-radius: 4px;
+            }
+
+            .inline-block {
+                display: inline-block;
+            }
+
+            .p7oMc {
+                user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                pointer-events: none;
+            }
+
+            div.icon {
+                display: inline-block;
+                position: relative;
+            }
+
+            img.avatarDecoration {
+                position: absolute;
+                left: 5px;
+                top: 5px;
+            }
+
+            .reactions {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin: 0 8px;
+            }
+
+            .m3qko {
+                display: flex;
+                align-items: center;
+                padding: .125rem .375rem;
+                position: relative;
+                border-radius: .5rem;
+                box-sizing: border-box;
+                flex-shrink: 0;
+                margin-right: .25rem;
+                margin-bottom: .25rem;
+                background: #2b2d31;
+                border: .0625rem solid transparent;
+                transition: .5s cubic-bezier(0.16, 1, 0.3, 1);
+            }
+
+            .m3qko:hover {
+                background: #313338;
+                border-color: #5a5c60;
+                .reactionCount {
+                    color: #dadde0;
+                }
+            }
+
+            .reactionCount {
+                font-weight: 600;
+                margin-left: .375rem;
+                text-align: center;
+                color: #b4b9c0;
+                min-width: 9px;
+            }
+
+            .reactionEmoji {
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+        <meta property="og:title" content="%displayNameTitle% (@%username%) on Light Treron">
+        <meta name="og:description" content="%contentTitle%">
+    </head>
+    <body>
+        <div class="post">
+            <div>
+                <div class="inline-block">
+                    <div class="postUser">
+                        <div class="icon">
+                            <img class="avatar p7oMc" src="%avatar%" width="48" height="48">
+                            <img class="avatarDecoration p7oMc" height="54">
+                        </div>    
+                        <span class="names">
+                            <div>
+                                <span class="displayname">
+                                    %displayName%
+                                </span>
+                                <br>
+                                <span class="username">
+                                    @%username%
+                                </span>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="brand">
+                    <a href="https://light.treron.jp" target="_blank">
+                        <img height="30" width="30" src="https://cdn.discordapp.com/icons/1227213276576874558/02cf017910ef391ccf6ead0e6bfcf0c2.png?size=4096" class="logo p7oMc">
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                %content%
+            </div>
+            <div class="reactions">
+                %reactionHTML%
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+        <script>
+            try {
+                twemoji.parse(document.body);
+                hljs.highlightAll();
+                const n36="%username%",x5y=location.pathname.replace(/^\//,'').split('/'),ke2="%avatarDecorationAsset%"
+                ke2?document.getElementsByClassName('avatarDecoration')[0].src=`https://cdn.discordapp.com/avatar-decoration-presets/${ke2}.png`:null
+            } catch (e) {
+                console.error(e)
+            }
+        </script>
+    </body>
+</html>

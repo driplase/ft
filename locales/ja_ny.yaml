@@ -1,0 +1,181 @@
+#日本語
+post.tooLong: "リポストされた内容はにゃがすぎるから表示できにゃいにゃん！"
+post.reposted: "<user>[にゃんがリポストしたにゃ]"
+post.showMore: "もっと表示するにゃ！"
+notify.repost: "<user>にゃんが[あにゃたの投稿](<link>)をリポストしたにゃ："
+notify.like: "<user>にゃんが[あにゃたの投稿](<link>)をいいねしたにゃ："
+notify.notifications: "通知"
+achievement.unlock: "実績が解除されたにゃ！"
+achievement.beginning.title: "始まり"
+achievement.beginning.description: "これで準備完了にゃ！"
+achievement.1like.title: "はじめてのいいねにゃ！"
+achievement.1like.description: "いいねしたにゃ！"
+achievement.1repost.title: "はじめてのリポストにゃ！"
+achievement.1repost.description: "リポストしたにゃ！"
+achievement.1bm.title: "はじめてのブックマークにゃ！"
+achievement.1bm.description: "ポストをブックマークしたにゃ！"
+achievement.1liked.title: "はじめていいねされたにゃ！"
+achievement.1liked.description: "誰かにゃんがあにゃたのポストにいいねしてくれたにゃ！"
+achievement.1reposted.title: "はじめてリポストされたにゃ！"
+achievement.1reposted.description: "どこかのにゃんこがあにゃたのポストにリポストしてくれたにゃ！"
+achievement.trend.title: "トレンド入りにゃ！"
+achievement.trend.description: "あにゃたのポストがトレンド入りしたにゃ！"
+achievement.ltsl.title: "LTSL！"
+achievement.ltsl.description: "Light Treron Sugoi Lightに加入するにゃ！"
+achievement.cgacha.title: "色ガチャ！"
+achievement.cgacha.description: "/cgachaコマンドで色ガチャを回すにゃ！"
+achievement.1post.title: "はじめてのポストにゃ！"
+achievement.1post.description: "最初のメッセージを送るにゃ！"
+achievement.coinsend.title: "このCiaoちゅ～るはあにゃたへ！"
+achievement.coinsend.description: "どこかのにゃんこにCiaoちゅ～るを送ったにゃ！"
+achievement.work.title: "はたらく、Ciaoちゅ〜るのために。"
+achievement.work.description: "リアクションを連打して労働するにゃん"
+achievement.ltsy.title: "LTSY！"
+achievement.ltsy.description: "サーバーをブーストしてLight Treron Suge Yabeに加入にゃ！"
+achievement.nocturnal.title: "夜行性"
+achievement.nocturnal.description: "夜遅くにポストするにゃ！"
+achievement.nocontenttrend.title: "トレンド入りしたけど、にゃにも言ってにゃいにゃ..."
+achievement.nocontenttrend.description: "テキストにゃしでトレンド入りするにゃ！"
+achievement.jasp.title: "||う～ん、あにゃたはaspou2413にゃんからの秘密を手に入れたにゃ！||"
+achievement.jasp.description: "||https://discord.com/channels/1227213276576874558/1227216489199960157/1276493480423718922||"
+achievement.1c12l.title: "1文字だけで12いいねをもらえたにゃ！"
+achievement.1c12l.description: "でもどうやってにゃ？"
+achievement.0l16r.title: "いいねにゃしで16リポストにゃ！"
+achievement.0l16r.description: "こんにゃ実績にゃんて解除可能にゃの？"
+achievement.0l5r.title: "いいねにゃしで5リポストにゃ！"
+achievement.0l5r.description: "あと11リポストで別の実績を解除にゃ！"
+achievement.nyan8r.title: "「にゃーん」を広めるのが好きだにゃ！"
+achievement.nyan8r.description: "「にゃーん」だけで8リポストだにゃんてにゃんと凄い"
+achievement.1d100.title: "1d100！"
+achievement.1d100.description: "(1d100)"
+achievement.3d6.title: "3d6！"
+achievement.3d6.description: "(3d6)"
+achievement.100post.title: "みてにゃ！100回ポストしたにゃ！"
+achievement.100post.description: "100回ポストするにゃ！"
+achievement.500post.title: "にゃにゃ！500回ポストにゃ！"
+achievement.500post.description: "500回ポストするにゃ！"
+achievement.1kpost.title: "1000ポストにゃ？！"
+achievement.1kpost.description: "1,000回ポストするにゃ！"
+achievement.common: "普通にゃんこ"
+achievement.uncommon: "普通ではないにゃんこ"
+achievement.expert: "達人にゃんこ"
+achievement.legendary: "歴史に残るにゃんこ"
+achievement.epic: "にゃんとすごい"
+achievement.godlike: "実績解除の猫神様"
+achievement.hidden: "隠し実績"
+achievement.test.title: "テスト"
+achievement.test.description: "この実績は解除不可にゃ。First Treronの開発にゃんにこの実績を解除できにゃいか聞かにゃいでくださいにゃ。テスト用にゃ。"
+achievement.unavailable: "アンロック不可"
+achievement.100like.title: "100回いいねしたにゃ！"
+achievement.100like.description: "100回いいねするにゃ！"
+achievement.100repost.title: "リポストにゃ！リポストにゃ！！リポストにゃー！！！"
+achievement.100repost.description: "100回リポストするにゃ！"
+achievement.j0si.title: "j0.si、短縮リンクにゃ！"
+achievement.j0si.description: "にゃんと、15.89ドル/年 もかかっているにゃん..."
+achievement.500coinsend.title: "たくさんのCiaoちゅ～るをあにゃたににゃ！"
+achievement.500coinsend.description: "500 Ciaoちゅ～る以上をどこかのにゃんこに送るにゃ！"
+achievement.5kcoinsend.title: "これらのCiaoちゅ～るをただで受け取ってにゃ！"
+achievement.5kcoinsend.description: "5,000 Ciaoちゅ～る以上をどこかのにゃんこに送るにゃ！"
+achievement.allsend.title: "大丈夫にゃ、全部持っていってにゃ！！"
+achievement.allsend.description: "持っているすべてのCiaoちゅ～るをどこかのにゃんこに送るにゃ！"
+achievement.sendaspoucoin.title: "||あにゃたが一体どのにゃんこにゃのか私は知っているにゃ！||"
+achievement.sendaspoucoin.description: "||*2413*がにゃにを意味するのか、私には全くわからないにゃ...||"
+achievement.100reposted.title: "広めて、広めて、広めるにゃ、..."
+achievement.100reposted.description: "100回リポストされるにゃ！"
+achievement.100liked.title: "にゃ、100回いいねされたにゃ？"
+achievement.100liked.description: "100回いいねされるにゃ！"
+achievement.10kcoinsend.title: "私のCiaoちゅ～るをたくさん持って行ってにゃ！"
+achievement.10kcoinsend.description: "10,000 Ciaoちゅ～る以上をどこかのにゃんこに送るにゃ！"
+achievement.rainbow.title: "虹色ロール、それは特別にゃ！"
+achievement.rainbow.description: "レインボーロールを手に入れるにゃ！"
+achievement.unsightreadable.title: "あの、あにゃたはどこのにゃんこにゃ...？"
+achievement.unsightreadable.description: "みえにくすぎグレーロールを手に入れるにゃ！"
+achievement.cgacha3same.title: "にゃ、色ガチャで3回おにゃじ色が出たにゃ。"
+achievement.cgacha3same.description: "色ガチャで3回連続おにゃじロールを手に入れるにゃ！"
+achievement.cgacha5same.title: "まさか5回連続でおにゃじ色を手に入れるにゃんてありえにゃい！"
+achievement.cgacha5same.description: "色ガチャで5回連続おにゃじロールを手に入れるにゃ！"
+achievement.selflike.title: "これもいいねとしてカウントされるにゃ！"
+achievement.selflike.description: "自分で自分のポストをいいねするにゃ！"
+achievement.sendnicewithfee.title: "\\* ﾆｬｲｽﾆｬ \\*"
+achievement.sendnicewithfee.description: "あにゃたは69 Ciaoちゅ～るを使ってどこかのにゃんこにCiaoちゅ～るを送金したにゃ。"
+achievement.7day.title: "7日連続ログインにゃ！"
+achievement.7day.description: "あにゃたはどれだけ記録を伸ばし続けられるかにゃ？"
+achievement.1space.title: "スペースっていったいにゃんにゃんだ？"
+achievement.1space.description: "最初のスペースをはじめようにゃ！"
+achievement.10space.title: "どうスペースが動いているのかわかったにゃ！"
+achievement.10space.description: "10回スペースを作成するにゃ！"
+achievement.10kcoin.title: "にゃ！私はCiaoちゅ～る持ちにゃ！"
+achievement.10kcoin.description: "1万のCiaoちゅ～るを持つにゃ！"
+achievement.1klike.title: "このコミュニティのポストが大好きにゃんだにゃ！"
+achievement.1klike.description: "1,000回いいねするにゃ！"
+achievement.1kliked.title: "このコミュニティは私のことがとても大好きにゃ！"
+achievement.1kliked.description: "1,000回いいねされるにゃ！"
+achievement.1bmd.title: "んにゃ、ブックマークされたにゃ！"
+achievement.1bmd.description: "誰かがあにゃたのポストをブックマークしたにゃ！"
+command.stats.title: "<user>の統計"
+command.stats.engagements: "ポストの総エンゲージメント数"
+command.stats.loginStreak: "%d日連続ログイン (最高: %l日連続)"
+command.donate.method: "寄付方法："
+command.donate.kyash: "Kyash"
+command.donate.sen: "これが<target>に寄付する方法にゃ！"
+command.donate.footer: "もしあにゃたが貧しいにゃら、寄付するのはお勧めしにゃいにゃ。あにゃたの生活のために使ってにゃ。"
+command.donate.comment: "単純ににゃにか(例：マタタビ)をギフトとして贈ることも可能です。"
+command.donate.booth: "BOOTH"
+command.achievement.empty: "(空)"
+command.achievement.title: "<user>の実績"
+command.achievement.hidden: "(隠し実績: <id>)"
+command.exchange.notEnoughXP: "XPが足りないにゃ！"
+command.exchange.notEnoughCoin: "Ciaoちゅ～るが足りないにゃ！"
+command.achievement.information.title: "実績の情報"
+command.leaderboard.title: "リーダーボード"
+panel.addRole: "追加されたロール："
+panel.removeRole: "剝奪されたロール："
+command.ranking.streak.loginStreak: "%d日連続"
+achievement.14day.title: "14日連続ログインにゃ！"
+achievement.14day.description: "2週間、いいにゃ！"
+achievement.rcr.title: "レアカラーロールにゃ"
+achievement.rcr.description: "もしその色をあとで使いたければ、LTSLに加入して`/recolor`コマンドを使おうにゃ！"
+achievement.scr.title: "スーパーレアにゃ。"
+achievement.scr.description: "たくさんのCiaoちゅ～るを無駄にしないでにゃ。"
+miaq.generating: 生成中にゃ...
+ftai.generating: 生成中にゃ...
+ftai.fail: ごめんにゃさい、わたしはそのことに関して話すことはできにゃいにゃ。
+ftai.footer: AIにゃんこによる生成にゃ。AIにゃんこは間違いを犯すかもしれにゃいにゃ。
+achievement.30day.title: 30日連続ログインにゃ！
+achievement.30day.description: いいにゃ。
+topX: (上位&n%)
+bump.notify: <time>に通知するにゃ。
+command.donate.amazon.wishlist: '欲しいものリスト (Anyazon):'
+second.welcome: ようこそにゃ！
+second.firstdm: あなたに100 Ciaoちゅ～るとユーザーロールを付与したにゃ。このDMは今後ブックマークしたポストが届くにゃ。
+space.voice.title: <user>のスペースにゃ！
+command.request.description: コインを請求するにゃ
+command.request.dm.requested: <user> から <coins> Ciaoちゅ～るの請求が届いているにゃ。
+command.request.dm.coinRequest: Ciaoちゅ～るの請求にゃ
+command.request.botDenied: BotにゃんこからCiaoちゅ～るを請求することはできにゃいにゃ。
+command.request.check: 本当にCiaoちゅ～るを請求するかにゃ？
+yes: はい
+no: いいえ
+accept: いいにゃ。
+decline: だめにゃ。
+command.request.dm.declined: <user> はあにゃたの請求を拒否したにゃ
+command.request.dm.accepted: <user> はあにゃたの請求を承認したにゃ
+command.request.requestCompleted: 請求完了にゃ！
+command.request.dm.notEnoughCoins: 贈るためのCiaoちゅ～るが不足しているにゃ。
+command.request.dm.transferSuccess: Ciaoちゅ～る贈与完了にゃ！
+command.requested.dm.gave: <user> へ <coins> 個のCiaoちゅ～るを贈与したにゃ。
+command.request.accepted.title: あにゃたの請求が承認されたにゃ！
+command.request.declined.title: あにゃたの請求が拒否されたにゃ...
+command.request.yourself: あにゃた自身からCiaoちゅ～るを請求することはできにゃいにゃ。
+coolingDown: クールダウン中だにゃ...
+command.reapply.notEnoughCoins: 'Ciaoちゅ～るが足りないにゃ！(必要なCiaoちゅ～る: <coins>)'
+command.reapply.description: 色ロールを楽に再適用するにゃ
+command.reapply.reapplied: 色ロールを再適用したにゃ！
+command.reapply.already: 既にその色ロールは適用されてるにゃん！
+acknowledgements: 謝辞
+command.donate.pixivFANBOX: pixivFANBOX
+command.redeem.invalid: そのコードは有効じゃにゃいにゃん。
+command.redeem.unusable: そのコードは期限切れであるか、存在しにゃいにゃ。
+command.redeem.success: "<type> が正常に引き換えられたにゃ！\nこれからもFirst Treronにゃんこのライフを楽しんでくださいにゃ！"
+acknowledgements.icon: アイコン：
+command.ltshare.name: 共有

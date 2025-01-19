@@ -1,0 +1,181 @@
+#日本語
+post.tooLong: "The content was too long to show."
+post.reposted: "<user> [reposted]"
+post.showMore: "Show more"
+notify.repost: "<user> reposted [your post](<link>):"
+notify.like: "<user> liked [your post](<link>):"
+notify.notifications: "Notifications"
+achievement.unlock: "Achievement unlocked!"
+achievement.beginning.title: "Beginning"
+achievement.beginning.description: "Now you're ready to go."
+achievement.1like.title: "First like"
+achievement.1like.description: "Like a post"
+achievement.1repost.title: "First repost"
+achievement.1repost.description: "Repost a post"
+achievement.1bm.title: "First bookmark"
+achievement.1bm.description: "Bookmark a post"
+achievement.1liked.title: "First liked post"
+achievement.1liked.description: "Someone liked your post!"
+achievement.1reposted.title: "First reposted post"
+achievement.1reposted.description: "Someone reposted your post!"
+achievement.trend.title: "Trending!"
+achievement.trend.description: "Your post became a trending post!"
+achievement.ltsl.title: "LTSL!"
+achievement.ltsl.description: "Subscribe to Light Treron Sugoi Light"
+achievement.cgacha.title: "Color Gacha!"
+achievement.cgacha.description: "Spin the Color Gacha by using /cgacha command"
+achievement.1post.title: "First post"
+achievement.1post.description: "Send your first message"
+achievement.coinsend.title: "These coins are for you"
+achievement.coinsend.description: "Send a coin to someone"
+achievement.work.title: "Work to get coins"
+achievement.work.description: "start working by spamming reactions"
+achievement.ltsy.title: "LTSY!"
+achievement.ltsy.description: "Boost this server and get Light Treron Suge Yabe Subscription."
+achievement.nocturnal.title: "Nocturnal"
+achievement.nocturnal.description: "Send a message late at night"
+achievement.nocontenttrend.title: "Trending, but I didn't say anything..."
+achievement.nocontenttrend.description: "Be trending without text"
+achievement.jasp.title: "||Well, you got the secret by aspou2413...||"
+achievement.jasp.description: "||https://discord.com/channels/1227213276576874558/1227216489199960157/1276493480423718922||"
+achievement.1c12l.title: "I got 12 likes with only 1 character!"
+achievement.1c12l.description: "But how?"
+achievement.0l16r.title: "16 reposts without likes"
+achievement.0l16r.description: "Is this achievement possible to unlock?"
+achievement.0l5r.title: "5 reposts without likes"
+achievement.0l5r.description: "Only 11 reposts to unlock another achievement!"
+achievement.nyan8r.title: "We love to spread Nyan!"
+achievement.nyan8r.description: "Get 8 reposts by just saying \"Nyan\""
+achievement.1d100.title: "1d100!"
+achievement.1d100.description: "(1d100)"
+achievement.3d6.title: "3d6!"
+achievement.3d6.description: "(3d6)"
+achievement.100post.title: "Look! I posted 100 posts!"
+achievement.100post.description: "Post 100 posts"
+achievement.500post.title: "Wow, 500 posts!"
+achievement.500post.description: "Post 500 posts"
+achievement.1kpost.title: "1,000 posts?!"
+achievement.1kpost.description: "Post 1,000 posts"
+achievement.common: "Common"
+achievement.uncommon: "Uncommon"
+achievement.expert: "Expert"
+achievement.legendary: "Legendary"
+achievement.epic: "Epic"
+achievement.godlike: "Godlike"
+achievement.hidden: "hidden"
+achievement.test.title: "test"
+achievement.test.description: "This is not unlockable. Do not ask First Treron devs to unlock this achievement. Just for tests."
+achievement.unavailable: "Can't be unlocked"
+achievement.100like.title: "I liked 100 times!"
+achievement.100like.description: "Like 100 posts"
+achievement.100repost.title: "REPOST! REPOST!! REPOST!!!"
+achievement.100repost.description: "Repost 100 posts"
+achievement.j0si.title: "j0.is, a link shortener!"
+achievement.j0si.description: "well, it costs *15.89 USD* per year..."
+achievement.500coinsend.title: "A lot of coins for you"
+achievement.500coinsend.description: "Send 500 or more coins to someone"
+achievement.5kcoinsend.title: "Take these coins for free!"
+achievement.5kcoinsend.description: "Send 5,000 or more coins to someone"
+achievement.allsend.title: "Just take all my coins! I'm okay!"
+achievement.allsend.description: "Send all the coins you have"
+achievement.sendaspoucoin.title: "||I know who the hell you are.||"
+achievement.sendaspoucoin.description: "||i have no idea what does *2413* mean...||"
+achievement.100reposted.title: "Spread, spread, spread, ..."
+achievement.100reposted.description: "Get 100 reposts"
+achievement.100liked.title: "Wow, I got 100 likes?"
+achievement.100liked.description: "Get 100 likes"
+achievement.10kcoinsend.title: "Take a lot of my coins."
+achievement.10kcoinsend.description: "Send 10,000 or more coins to someone"
+achievement.rainbow.title: "rainbow color, it's special!"
+achievement.rainbow.description: "Get rainbow color role"
+achievement.unsightreadable.title: "umm, who are you...?"
+achievement.unsightreadable.description: "Get unsightreadable gray color role"
+achievement.cgacha3same.title: "Oh wow, I got the same color 3 times in a row."
+achievement.cgacha3same.description: "Get the same color role 3 times in a row in color gacha"
+achievement.cgacha5same.title: "No way! I got the same color role 5 times in a row!"
+achievement.cgacha5same.description: "Get the same color role 5 times in a row in color gacha"
+achievement.selflike.title: "It also counts as a like"
+achievement.selflike.description: "Like your post by yourself"
+achievement.sendnicewithfee.title: "\\* nice \\*"
+achievement.sendnicewithfee.description: "You used 69 coins to send coins."
+achievement.7day.title: "7 Day Login Streak"
+achievement.7day.description: "How long can you keep this?"
+achievement.1space.title: "What the hell is the space?"
+achievement.1space.description: "Start your first space"
+achievement.10space.title: "I knew how space works."
+achievement.10space.description: "Create 10 spaces"
+achievement.10kcoin.title: "Hey, I'm rich now!"
+achievement.10kcoin.description: "Have 10,000 coins"
+achievement.1klike.title: "I love this community members' posts a lot!"
+achievement.1klike.description: "Like 1,000 posts"
+achievement.1kliked.title: "This community loves me so much!"
+achievement.1kliked.description: "Get 1,000 likes"
+achievement.1bmd.title: "Oh, bookmarked!"
+achievement.1bmd.description: "Someone bookmarked your post!"
+command.stats.title: "<user> stats"
+command.stats.engagements: "Total post engagements"
+command.stats.loginStreak: "%d day login streak (Longest: %l day streak)"
+command.donate.method: "Donation methods:"
+command.donate.kyash: "Kyash"
+command.donate.sen: "Here's how you can donate to <target>."
+command.donate.footer: "If you're a poor person, we don't recommend to donate. Use money for your own living."
+command.donate.comment: "You can also simply give something (e.g. Discord Nitro) as a gift."
+command.donate.booth: "BOOTH"
+command.achievement.empty: "(empty)"
+command.achievement.title: "<user> achievements"
+command.achievement.hidden: "(hidden: <id>)"
+command.exchange.notEnoughXP: "Not enough XPs!"
+command.exchange.notEnoughCoin: "Not enough coins!"
+command.achievement.information.title: "Achievement information"
+command.leaderboard.title: "Leaderboard"
+panel.addRole: "Added role:"
+panel.removeRole: "Removed role:"
+command.ranking.streak.loginStreak: "%d day streak"
+achievement.14day.title: "14 Day Login Streak"
+achievement.14day.description: "2 weeks, great!"
+achievement.rcr.title: "Rare color role"
+achievement.rcr.description: "If you want to use the rare color later, subscribe LTSL and use `/recolor`!"
+achievement.scr.title: "SUPER RARE"
+achievement.scr.description: "Never waste a lot of coins."
+miaq.generating: Generating...
+ftai.generating: Generating...
+ftai.fail: Sorry, I can't talk about it.
+ftai.footer: Generated by AI. AI may make mistakes.
+achievement.30day.title: 30 Day Login Streak!
+achievement.30day.description: Good.
+topX: (Top &n%)
+bump.notify: We will notify you <time>.
+command.donate.amazon.wishlist: 'Wishlist (Amazon):'
+second.welcome: Welcome!
+second.firstdm: You have been granted 100 coins and a user role. This DM will receive bookmarked posts in the future.
+space.voice.title: <user> space
+command.request.description: Request coins
+command.request.dm.requested: <user> has requested <coins> coins from you.
+command.request.dm.coinRequest: Coin request
+command.request.botDenied: You can't request coins from bots.
+command.request.check: Are you sure you want to request coins?
+yes: "Yes"
+no: "No"
+accept: Accept
+decline: Decline
+command.request.dm.declined: <user> has declined your request
+command.request.dm.accepted: <user> has accepted your request
+command.request.requestCompleted: Request completed!
+command.request.dm.notEnoughCoins: You don't have enough coins to give.
+command.request.dm.transferSuccess: Coin Transfer Success!
+command.requested.dm.gave: You have given <coins> coins to <user>.
+command.request.accepted.title: Your request has been accepted!
+command.request.declined.title: Your request has been declined...
+command.request.yourself: You can't request coins from yourself.
+coolingDown: Cooling down...
+command.reapply.notEnoughCoins: 'Not enough coins! (Required coins: <coins>)'
+command.reapply.description: Reapply color role easily
+command.reapply.reapplied: The color role has been reapplied!
+command.reapply.already: The color role is already applied!
+acknowledgements: Acknowledgements
+command.donate.pixivFANBOX: pixivFANBOX
+command.redeem.invalid: That code is not valid.
+command.redeem.unusable: That code is expired or doesn't exist.
+command.redeem.success: "You have successfully redeemed <type>!\nPlease continue to enjoy your First Treron life!"
+acknowledgements.icon: 'Icon: '
+command.ltshare.name: 共有
