@@ -20,5 +20,9 @@
     "whois": "^2.14.2",
     "whois-parsed": "^1.0.14"
   },
-  "main": "main.js"
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": [
+    "start": "node ./main.js && node ./gl.js"
+  ]
 }
